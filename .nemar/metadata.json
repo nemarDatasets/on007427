@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Comprehensive methodology for sample enrichment in EEG biomarker studies for Alzheimer’s risk classification",
-  "description": "This dataset presents a comprehensive methodology for sample enrichment in electroencephalography (EEG) biomarker studies designed to classify Alzheimer's disease risk. The study employs systematic approaches to optimize participant selection and EEG data quality for improved biomarker identification and risk stratification in neurodegenerative disease research. The dataset includes EEG recordings from participants assessed for cognitive status, with detailed preprocessing protocols and enrichment criteria applied to enhance biomarker reliability for Alzheimer's risk classification.",
+  "description": "This dataset presents a comprehensive methodology for sample enrichment in electroencephalography (EEG) biomarker studies designed to classify Alzheimer's disease risk. The study employs systematic approaches to optimize participant selection and EEG data quality for improved biomarker identification and risk stratification in neurodegenerative disease research. The dataset contains EEG recordings and associated clinical data from participants stratified by Alzheimer's risk status, demonstrating the application of enrichment methodology for enhanced biomarker discovery. Sample size and detailed participant demographics are available in the associated publication (Henao Isaza et al., PLOS ONE, 2024).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,10 +14,14 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "Alzheimer's disease"
+      "term": "Alzheimer's disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000544"
     },
     {
       "term": "Biomarkers",
@@ -25,19 +29,16 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D015415"
     },
     {
-      "term": "sample enrichment"
-    },
-    {
       "term": "risk classification"
     },
     {
-      "term": "neurodegeneration"
+      "term": "sample enrichment"
     },
     {
-      "term": "cognitive assessment"
+      "term": "risk stratification"
     },
     {
-      "term": "signal processing"
+      "term": "neurodegenerative disease"
     }
   ],
   "related_identifiers": [
@@ -67,8 +68,7 @@
       "funder_name": "Comité para el Desarrollo de la Investigación - CODI, Universidad de Antioquia"
     },
     {
-      "funder_name": "Comité para el Desarrollo de la Investigación (CODI)",
-      "award_title": "Universidad de Antioquia"
+      "funder_name": "Comité para el Desarrollo de la Investigación (CODI), Universidad de Antioquia"
     }
   ],
   "resource_type_general": "Dataset",
