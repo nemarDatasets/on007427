@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Comprehensive methodology for sample enrichment in EEG biomarker studies for Alzheimer’s risk classification",
-  "description": "This dataset presents a comprehensive methodology for sample enrichment in electroencephalography (EEG) biomarker studies designed to classify Alzheimer's disease risk. The study employs systematic approaches to optimize participant selection and EEG data quality for improved biomarker identification and risk stratification in neurodegenerative disease research. The dataset contains EEG recordings and associated clinical data from participants stratified by Alzheimer's risk status, demonstrating the application of enrichment methodology for enhanced biomarker discovery. Sample size and detailed participant demographics are available in the associated publication (Henao Isaza et al., PLOS ONE, 2024).",
+  "description": "This dataset comprises EEG recordings collected as part of a study developing a methodology for sample enrichment in EEG biomarker research for Alzheimer's disease risk classification. It aims to support the identification of electrophysiological biomarkers relevant to Alzheimer's risk stratification. The dataset was generated at Universidad de Antioquia and is intended for use in biomarker discovery and validation studies.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +14,10 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
-      "term": "Alzheimer's disease",
+      "term": "Alzheimer Disease",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D000544"
     },
@@ -33,19 +31,13 @@
     },
     {
       "term": "sample enrichment"
-    },
-    {
-      "term": "risk stratification"
-    },
-    {
-      "term": "neurodegenerative disease"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1371/journal.pone.0343722",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on007427",
@@ -66,9 +58,6 @@
   "funding_references": [
     {
       "funder_name": "Comité para el Desarrollo de la Investigación - CODI, Universidad de Antioquia"
-    },
-    {
-      "funder_name": "Comité para el Desarrollo de la Investigación (CODI), Universidad de Antioquia"
     }
   ],
   "resource_type_general": "Dataset",
