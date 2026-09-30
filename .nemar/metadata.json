@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Comprehensive methodology for sample enrichment in EEG biomarker studies for Alzheimer’s risk classification",
-  "description": "This dataset comprises EEG recordings collected as part of a study developing a methodology for sample enrichment in EEG biomarker research for Alzheimer's disease risk classification. It aims to support the identification of electrophysiological biomarkers relevant to Alzheimer's risk stratification. The dataset was generated at Universidad de Antioquia and is intended for use in biomarker discovery and validation studies.",
+  "description": "EEG dataset accompanying the PLOS ONE article 'Comprehensive methodology for sample enrichment in EEG biomarker studies for Alzheimer's risk classification' (Henao Isaza, Aguillon, Tobón Quintero, Lopera, & Ochoa Gómez, 2026). The recordings support a methodology for enriching samples in biomarker studies that classify Alzheimer's disease risk from EEG features. Data are stored in BIDS format (BrainVision .vhdr/.eeg/.vmrk files with accompanying metadata) and released under a CC0 license.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -66,7 +66,7 @@
     "eeg"
   ],
   "sizes": [
-    "14.6 GB (681 files)"
+    "13.56 GB (681 files)"
   ],
   "formats": [
     ".eeg",
